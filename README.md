@@ -10,6 +10,9 @@ A full-stack **Amazon Clone** built using **Node.js, Express.js, MongoDB, HTML, 
 - 📦 **Order management & tracking**
 - 🎨 **Responsive UI (Mobile-friendly)**  
 
+## 📸 Screenshots  
+![Amazon Clone](./screenshots/amazon-clone-demo.gif)
+
 ## 🚀 Tech Stack
 - **Backend:** Node.js, Express.js  
 - **Frontend:** HTML, CSS  
@@ -24,20 +27,23 @@ A full-stack **Amazon Clone** built using **Node.js, Express.js, MongoDB, HTML, 
 - **MongoDB** installed & running locally or using **MongoDB Atlas**  
 - **Stripe API keys** for payment processing  
 
-### 2️⃣ Clone the Repository  
+### 2️⃣ Clone, Install Dependencies & Configure Environment Variables  
+
 ```sh
+# Clone the Repository
 git clone https://github.com/yourusername/amazon-clone.git
 cd amazon-clone
 
-### 3️⃣ Install Dependencies
+# Install Dependencies
 npm install
 
-### 4️⃣ Configure Environment Variables
+# Create a .env file in the root directory and add:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
 
-### 5️⃣ Start the Server
+# Start the Server:
 npm start
-  
+
+
